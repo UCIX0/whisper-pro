@@ -1,6 +1,6 @@
 # Whisper Pro 🎙️✨
 
-> 🇪🇸 **[Leer en Español](./README_ES.md)** | 🇺🇸 **[Read in English](./README.md)**
+> 🇪🇸 **[Español](./README_ES.md)** | 🇺🇸 **[English](./README.md)**
 
 **Whisper Pro** es una interfaz web de alto rendimiento acelerada por GPU para el modelo Whisper de OpenAI, capaz de transcribir audio con velocidad y precisión de grado profesional. Construido con una pila tecnológica moderna, combina la potencia bruta de `faster-whisper` y `CTranslate2` con un frontend elegante y responsivo en React.
 
