@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+websockets
+# Libraries already present in the environment but good to list:
+faster-whisper
+tqdm
+colorama
