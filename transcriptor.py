@@ -140,7 +140,7 @@ def transcribir_archivo(ruta_entrada):
 if __name__ == "__main__":
     # Limpia pantalla compatible con Linux/Mac/Windows
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(f"{Fore.MAGENTA}--- TRANSCRIPTOR WHISPER LINUX (RTX 4070) ---{Style.RESET_ALL}")
+    print(f"{Fore.MAGENTA}--- TRANSCRIPTOR WHISPER PRO (GPU ACCELERATED) ---{Style.RESET_ALL}")
 
     while True:
         try:
