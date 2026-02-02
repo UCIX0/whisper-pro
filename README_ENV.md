@@ -66,21 +66,14 @@ This project uses `faster-whisper` and `ctranslate2`, which rely on NVIDIA libra
     - Checks: Run `nvidia-smi` in your terminal. You should see your GPU listed and a Driver Version.
 
 ### Configuration
-The environment installs necessary CUDA libraries (cuBLAS, cuDNN) via pip packages (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`). However, strictly relying on pip packages sometimes requires setting `LD_LIBRARY_PATH` so the application can locate them at runtime.
+The environment installs necessary CUDA libraries (cuBLAS, cuDNN) via pip packages.
 
-**Activator Script (Recommended)**:
-We recommend creating a small activation script or adding this to your `.bashrc` / `.zshrc` *after* activating the environment:
-
-```bash
-conda activate whispert
-
-# Export specific paths to the pip-installed NVIDIA libraries
-export LD_LIBRARY_PATH=$CONDA_PREFIX/lib/python3.10/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$CONDA_PREFIX/lib/python3.10/site-packages/nvidia/cublas/lib:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$CONDA_PREFIX/lib/python3.10/site-packages/nvidia/cudart/lib:$LD_LIBRARY_PATH
-```
-
-Without this, you might encounter errors like `Could not load library libcudnn_ops_infer.so.8`.
+> [!WARNING]
+> **Critical Configuration**: To ensure these libraries are found by the system, this environment uses **automatic activation scripts** to set `LD_LIBRARY_PATH`.
+>
+> 📄 **Read the detailed explanation and solution here: [README_NVIDIA.md](./README_NVIDIA.md)**
+>
+> Do not manually set `LD_LIBRARY_PATH` unless you know what you are doing, as it might conflict with the automatic configuration.
 
 ### Verification of GPU Access
 To confirm that `faster-whisper` can see your GPU, you can run a quick Python check:
