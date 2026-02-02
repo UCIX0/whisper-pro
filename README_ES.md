@@ -54,6 +54,14 @@ Para ejecutar Whisper Pro con la máxima eficiencia, se recomienda el siguiente 
 
 ---
 
+## 🖥️ Compatibilidad con Windows
+
+Este proyecto está optimizado para Linux, pero puede ejecutarse en **Windows** con aceleración por GPU. Para obtener instrucciones detalladas sobre la configuración en Windows, consulta la guía específica:
+
+> 📄 **[Guía de Instalación para Windows](./README_WINDOWS_ES.md)**
+
+---
+
 ## 📦 Instalación y Configuración
 
 Proporciono una configuración de entorno estrictamente versionada para garantizar la estabilidad.

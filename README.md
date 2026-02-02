@@ -56,6 +56,14 @@ To run Whisper Pro at maximum efficiency, the following hardware is recommended:
 
 ---
 
+## 🖥️ Windows Compatibility
+
+This project is optimized for Linux but can be run on **Windows** with GPU acceleration. For detailed setup instructions on Windows, please refer to the specific guide:
+
+> 📄 **[Installation Guide for Windows](./README_WINDOWS.md)**
+
+---
+
 ## 📦 Installation & Setup
 
 I provide a strictly versioned environment configuration to guarantee stability.
