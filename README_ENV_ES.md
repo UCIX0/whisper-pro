@@ -6,7 +6,7 @@ Esta guía te ayudará a recrear el entorno de desarrollo exacto para `whisper-p
 
 ## 1. Entorno Python / Conda
 
-Hemos creado un archivo `environment.yml` que contiene todos los paquetes conda y pip utilizados en el proyecto.
+He creado un archivo `environment.yml` que contiene todos los paquetes conda y pip utilizados en el proyecto.
 
 ### Crear el Entorno
 Para crear el entorno `whispert` desde el archivo, ejecuta:
@@ -31,7 +31,7 @@ conda env update -f environment.yml --prune
 
 ## 2. Dependencias Node.js / NPM
 
-Hemos creado un archivo `package.json` con las versiones exactas de los paquetes npm.
+He creado un archivo `package.json` con las versiones exactas de los paquetes npm.
 
 ### Instalar Dependencias
 Ejecuta el siguiente comando en la raíz del proyecto para instalar los módulos de node:
@@ -94,7 +94,7 @@ except Exception as e:
 
 ## 5. Verificación Automatizada
 
-Hemos incluido un script `verify_env.py` para comprobar automáticamente la configuración de tu entorno, dependencias y configuración de GPU.
+He incluido un script `verify_env.py` para comprobar automáticamente la configuración de tu entorno, dependencias y configuración de GPU.
 
 ### Uso
 Asegúrate de que tu entorno esté activado, luego ejecuta:

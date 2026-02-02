@@ -7,7 +7,7 @@ This guide will help you recreate the exact development environment for `whisper
 
 ## 1. Python / Conda Environment
 
-We have created an `environment.yml` file that contains all the conda and pip packages used in the project.
+I have created an `environment.yml` file that contains all the conda and pip packages used in the project.
 
 ### Create the Environment
 To create the `whispert` environment from the file, run:
@@ -32,7 +32,7 @@ conda env update -f environment.yml --prune
 
 ## 2. Node.js / NPM Dependencies
 
-We have created a `package.json` file with the exact versions of the npm packages.
+I have created a `package.json` file with the exact versions of the npm packages.
 
 ### Install Dependencies
 Run the following command in the project root to install the node modules:
@@ -95,7 +95,7 @@ except Exception as e:
 
 ## 5. Automated Verification
 
-We have included a script `verify_env.py` to automatically check your environment configuration, dependencies, and GPU setup.
+I have included a script `verify_env.py` to automatically check your environment configuration, dependencies, and GPU setup.
 
 ### Usage
 Make sure your environment is activated, then run:

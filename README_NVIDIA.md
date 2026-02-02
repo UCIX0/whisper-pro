@@ -2,7 +2,7 @@
 
 > 🇺🇸 **[English](./README_NVIDIA.md)** | 🇪🇸 **[Español](./README_NVIDIA_ES.md)**
 
-This document explains a common issue encountered when using pip-installed NVIDIA libraries (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`) on Linux and how we have solved it automatically for this project.
+This document explains a common issue encountered when using pip-installed NVIDIA libraries (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`) on Linux and how I have solved it automatically for this project.
 
 ## The Issue: "Could not load library"
 
@@ -21,13 +21,13 @@ Without explicit configuration, you might see errors like:
 
 ## The Solution: Conda Activation Scripts
 
-To fix this robustly without requiring every user to manually export variables every time, we have implemented **Conda Activation Scripts**.
+To fix this robustly without requiring every user to manually export variables every time, I have implemented **Conda Activation Scripts**.
 
 These scripts automatically run when you activate or deactivate the environment.
 
 ### 1. Activation Script (`activate.d`)
 
-We created a script at:
+I created a script at:
 `$CONDA_PREFIX/etc/conda/activate.d/nvidia_vars.sh`
 
 **Content:**
@@ -45,7 +45,7 @@ This ensures that as soon as you do `conda activate whispert`, the system knows 
 
 ### 2. Deactivation Script (`deactivate.d`)
 
-We also created a script at:
+I also created a script at:
 `$CONDA_PREFIX/etc/conda/deactivate.d/nvidia_vars.sh`
 
 **Content:**

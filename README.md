@@ -58,7 +58,7 @@ To run Whisper Pro at maximum efficiency, the following hardware is recommended:
 
 ## 📦 Installation & Setup
 
-We provide a strictly versioned environment configuration to guarantee stability.
+I provide a strictly versioned environment configuration to guarantee stability.
 
 ### 1. Clone & Prepare
 ```bash
@@ -83,7 +83,7 @@ npm install
 ```
 
 ### 4. Verify Environment (Optional but Recommended)
-We have included a custom verification tool to check your GPU visibility, CUDA paths, and dependencies.
+I have included a custom verification tool to check your GPU visibility, CUDA paths, and dependencies.
 ```bash
 python verify_env.py
 ```
@@ -94,7 +94,7 @@ python verify_env.py
 
 ## ⚡ Quick Start
 
-We provide a consolidated startup script that handles port management and launches both services.
+I provide a consolidated startup script that handles port management and launches both services.
 
 ```bash
 ./start.sh

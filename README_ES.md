@@ -56,7 +56,7 @@ Para ejecutar Whisper Pro con la máxima eficiencia, se recomienda el siguiente 
 
 ## 📦 Instalación y Configuración
 
-Proporcionamos una configuración de entorno estrictamente versionada para garantizar la estabilidad.
+Proporciono una configuración de entorno estrictamente versionada para garantizar la estabilidad.
 
 ### 1. Clonar y Preparar
 ```bash
@@ -81,7 +81,7 @@ npm install
 ```
 
 ### 4. Verificar Entorno (Opcional pero Recomendado)
-Hemos incluido una herramienta de verificación personalizada para comprobar la visibilidad de tu GPU, rutas CUDA y dependencias.
+He incluido una herramienta de verificación personalizada para comprobar la visibilidad de tu GPU, rutas CUDA y dependencias.
 ```bash
 python verify_env.py
 ```
@@ -92,7 +92,7 @@ python verify_env.py
 
 ## ⚡ Inicio Rápido
 
-Proporcionamos un script de inicio consolidado que maneja los puertos y lanza ambos servicios.
+Proporciono un script de inicio consolidado que maneja los puertos y lanza ambos servicios.
 
 ```bash
 ./start.sh
