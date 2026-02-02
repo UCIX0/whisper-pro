@@ -1,6 +1,6 @@
 # NVIDIA/CUDA Library Configuration Fix
 
-> 🇺🇸 **[English](./README_NVIDIA.md)** | 🇪🇸 **[Español](./README_NVIDIA_ES.md)**
+> 🇺🇸 **[English](./nvidia.md)** | 🇪🇸 **[Español](../es/nvidia.md)**
 
 This document explains a common issue encountered when using pip-installed NVIDIA libraries (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`) on Linux and how I have solved it automatically for this project.
 

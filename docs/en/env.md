@@ -1,6 +1,6 @@
 # Environment Setup Instructions
 
-> 🇺🇸 **[English](./README_ENV.md)** | 🇪🇸 **[Español](./README_ENV_ES.md)**
+> 🇺🇸 **[English](./env.md)** | 🇪🇸 **[Español](../es/env.md)**
 
 
 This guide will help you recreate the exact development environment for `whisper-pro` using the generated configuration files.
@@ -71,7 +71,7 @@ The environment installs necessary CUDA libraries (cuBLAS, cuDNN) via pip packag
 > [!WARNING]
 > **Critical Configuration**: To ensure these libraries are found by the system, this environment uses **automatic activation scripts** to set `LD_LIBRARY_PATH`.
 >
-> 📄 **Read the detailed explanation and solution here: [README_NVIDIA.md](./README_NVIDIA.md)**
+> 📄 **Read the detailed explanation and solution here: [README_NVIDIA.md](./nvidia.md)**
 >
 > Do not manually set `LD_LIBRARY_PATH` unless you know what you are doing, as it might conflict with the automatic configuration.
 

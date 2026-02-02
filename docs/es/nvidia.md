@@ -1,6 +1,6 @@
 # Solución de Configuración Librerías NVIDIA/CUDA
 
-> 🇺🇸 **[English](./README_NVIDIA.md)** | 🇪🇸 **[Español](./README_NVIDIA_ES.md)**
+> 🇺🇸 **[English](../en/nvidia.md)** | 🇪🇸 **[Español](./nvidia.md)**
 
 Este documento explica un problema común al usar librerías de NVIDIA instaladas vía pip (`nvidia-cublas-cu12`, `nvidia-cudnn-cu12`) en Linux y cómo lo he solucionado automáticamente en este proyecto.
 

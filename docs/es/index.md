@@ -1,6 +1,6 @@
 # Whisper Pro 🎙️✨
 
-> 🇪🇸 **[Español](./README_ES.md)** | 🇺🇸 **[English](./README.md)**
+> 🇪🇸 **[Español](./index.md)** | 🇺🇸 **[English](../../README.md)**
 
 **Whisper Pro** es una interfaz web de alto rendimiento acelerada por GPU para el modelo Whisper de OpenAI, capaz de transcribir audio con velocidad y precisión de grado profesional. Construido con una pila tecnológica moderna, combina la potencia bruta de `faster-whisper` y `CTranslate2` con un frontend elegante y responsivo en React.
 
@@ -58,7 +58,7 @@ Para ejecutar Whisper Pro con la máxima eficiencia, se recomienda el siguiente 
 
 Este proyecto está optimizado para Linux, pero puede ejecutarse en **Windows** con aceleración por GPU. Para obtener instrucciones detalladas sobre la configuración en Windows, consulta la guía específica:
 
-> 📄 **[Guía de Instalación para Windows](./README_WINDOWS_ES.md)**
+> 📄 **[Guía de Instalación para Windows](./windows.md)**
 
 ---
 
@@ -94,7 +94,7 @@ He incluido una herramienta de verificación personalizada para comprobar la vis
 python verify_env.py
 ```
 *   **Verde [OK]**: Estás listo.
-*   **Rojo [FAIL]**: Accede a `README_ENV.md` para instrucciones de solución de problemas.
+*   **Rojo [FAIL]**: Accede a `env.md` para instrucciones de solución de problemas.
 
 ---
 
@@ -121,10 +121,10 @@ Este script:
 ## 📝 Documentación Detallada
 
 ### 📘 Detalles del Entorno
-Para una inmersión profunda en las versiones de dependencias y la gestión del entorno, por favor consulta la **[Documentación del Entorno](./README_ENV_ES.md)**.
+Para una inmersión profunda en las versiones de dependencias y la gestión del entorno, por favor consulta la **[Documentación del Entorno](./env.md)**.
 
 ### Solución de Problemas de GPU
-Si `verify_env.py` reporta problemas de GPU, probablemente necesites configurar `LD_LIBRARY_PATH` para las librerías NVIDIA instaladas por pip. Mira la sección **Soporte GPU** en `README_ENV_ES.md`.
+Si `verify_env.py` reporta problemas de GPU, probablemente necesites configurar `LD_LIBRARY_PATH` para las librerías NVIDIA instaladas por pip. Mira la sección **Soporte GPU** en `env.md`.
 
 ---
 

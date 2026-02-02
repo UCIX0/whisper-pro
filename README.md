@@ -1,10 +1,10 @@
 # Whisper Pro 🎙️✨
 
-> 🇺🇸 **[English](./README.md)** | 🇪🇸 **[Español](./README_ES.md)**
+> 🇺🇸 **[English](./README.md)** | 🇪🇸 **[Español](./docs/es/index.md)**
 
 **Whisper Pro** is a high-performance, GPU-accelerated web interface for OpenAI's Whisper model, capable of transcribing audio with professional-grade accuracy and speed. Built with a modern tech stack, it combines the raw power of `faster-whisper` and `CTranslate2` with a sleek, responsive React frontend.
 
-> **Environment Setup**: For detailed installation instructions and dependency versions, please refer to the **[Environment Documentation](./README_ENV.md)**.
+> **Environment Setup**: For detailed installation instructions and dependency versions, please refer to the **[Environment Documentation](./docs/en/env.md)**.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
@@ -60,7 +60,7 @@ To run Whisper Pro at maximum efficiency, the following hardware is recommended:
 
 This project is optimized for Linux but can be run on **Windows** with GPU acceleration. For detailed setup instructions on Windows, please refer to the specific guide:
 
-> 📄 **[Installation Guide for Windows](./README_WINDOWS.md)**
+> 📄 **[Installation Guide for Windows](./docs/en/windows.md)**
 
 ---
 
@@ -96,7 +96,7 @@ I have included a custom verification tool to check your GPU visibility, CUDA pa
 python verify_env.py
 ```
 *   **Green [OK]**: You are ready.
-*   **Red [FAIL]**: Access `README_ENV.md` for troubleshooting instructions.
+*   **Red [FAIL]**: Access `docs/en/env.md` for troubleshooting instructions.
 
 ---
 
@@ -123,10 +123,10 @@ This script will:
 ## 📝 Documentation
 
 ### Environment Details
-For a deep dive into the dependency versions and managing the environment, please refer to the [Environment Documentation](./README_ENV.md).
+For a deep dive into the dependency versions and managing the environment, please refer to the [Environment Documentation](./docs/en/env.md)
 
 ### GPU Troubleshooting
-If `verify_env.py` reports GPU issues, you likely need to configure `LD_LIBRARY_PATH` for the pip-installed NVIDIA libraries. See the **GPU Support** section in `README_ENV.md`.
+If `verify_env.py` reports GPU issues, you likely need to configure `LD_LIBRARY_PATH` for the pip-installed NVIDIA libraries. See the **GPU Support** section in `docs/en/env.md`.
 
 ---
 

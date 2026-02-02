@@ -1,6 +1,6 @@
 # Instrucciones de Configuración del Entorno 🛠️
 
-> 🇺🇸 **[English](./README_ENV.md)** | 🇪🇸 **[Español](./README_ENV_ES.md)**
+> 🇺🇸 **[English](../en/env.md)** | 🇪🇸 **[Español](./env.md)**
 
 Esta guía te ayudará a recrear el entorno de desarrollo exacto para `whisper-pro` utilizando los archivos de configuración generados.
 
@@ -70,7 +70,7 @@ El entorno instala las librerías CUDA necesarias (cuBLAS, cuDNN) a través de p
 > [!WARNING]
 > **Configuración Crítica**: Para asegurar que el sistema encuentre estas librerías, este entorno utiliza **scripts de activación automática** para configurar `LD_LIBRARY_PATH`.
 >
-> 📄 **Lee la explicación detallada y la solución aquí: [README_NVIDIA_ES.md](./README_NVIDIA_ES.md)**
+> 📄 **Lee la explicación detallada y la solución aquí: [README_NVIDIA_ES.md](./nvidia.md)**
 >
 > No configures manualmente `LD_LIBRARY_PATH` a menos que sepas lo que haces, ya que podría entrar en conflicto con la configuración automática.
 
