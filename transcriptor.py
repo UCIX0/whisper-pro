@@ -89,10 +89,9 @@ def transcribir_archivo(ruta_entrada):
         log_info("Cargando modelo 'large-v3' en GPU (CUDA)...")
         start_load = time.time()
 
-        # En Linux, asegúrate de tener las librerías de CUDA en el path o instaladas
-        #model = WhisperModel("large-v3", device="cuda", compute_type="float16")
-        # Cámbiala por esta (apuntando a tu carpeta local):
-        model = WhisperModel("./modelo_whisper", device="cuda", compute_type="float16")
+        # Modificado para descargar automáticamente si no existe la carpeta
+        model = WhisperModel("large-v3", device="cuda",
+                             compute_type="float16", download_root="./modelo_whisper")
 
         load_time = time.time() - start_load
         log_success(f"Modelo cargado en {load_time:.2f} segundos.")

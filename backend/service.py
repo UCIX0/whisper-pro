@@ -27,14 +27,15 @@ class TranscriptionService:
 
             # Ensure the path is absolute or correct relative to execution context
             # Assuming backend is run from /home/ucix/Música/Whisper/
-            resolved_path = os.path.abspath(self.model_path)
-
-            if not os.path.exists(resolved_path):
-                raise FileNotFoundError(
-                    f"Model directory not found at: {resolved_path}")
-
+            # Auto-download logic via download_root
+            # We specify the model size 'large-v3' explicitly as the model_name
+            # and use model_path as the download_root (storage location)
             self.model = WhisperModel(
-                resolved_path, device=self.device, compute_type=self.compute_type)
+                "large-v3",
+                device=self.device,
+                compute_type=self.compute_type,
+                download_root=self.model_path
+            )
 
             load_time = time.time() - start_load
             logger.info(
